@@ -23,3 +23,9 @@ You can run several commands:
 We suggest that you begin by typing:
 
     npx playwright test
+
+
+*** TODO:
+- Set up page objects/fixtures
+- Shared common variables
+- File to grab user data from for login
