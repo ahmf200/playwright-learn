@@ -20,10 +20,8 @@ export class LoginPage {
 
     async loginToApplication(username: any, password: any) {
         await this.usernameField.click();
-        // await this.usernameField.fill('error_user');
         await this.usernameField.fill(username);
         await this.passwordField.click();
-        // await this.passwordField.fill('1234');
         await this.passwordField.fill(password);
         await this.loginButton.click();
     }
