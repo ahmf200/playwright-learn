@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "runTestFile": "npx playwright test"
+    "runTests": "npx playwright test",
+    "showReport": "npx playwright show-report"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.45.3",
     "@types/node": "^22.1.0"
+  },
+  "dependencies": {
+    "serialport": "^13.0.0"
   }
 }
